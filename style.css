@@ -74,9 +74,13 @@ p {
     /* Un orange vif */
 }
 
-div {
+div.collage {
     background-color: #ec1010;
     /* Un gris foncé */
+    display: flex;
+    justify-content: space-around;
+}
 
-<div style="display: flex;">
-<div>Item 1</div><div>Item 2</div><div>Item 3</div></div>
+.collage img {
+    width: 30%
+}
